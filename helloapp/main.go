@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	class.TestROM
+	class.TestORM()
 	beego.Run()
 }
