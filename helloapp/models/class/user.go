@@ -17,7 +17,7 @@ func TestORM() {
 	u := User{"liuyi", "test", "34534532@qq.com"}
 	o.Insert(&u)
 
-	u1 := User
+	u1 := User{"liuyi"}
 	o.Read(&u1)
 
 	fmt.Println(u1)
