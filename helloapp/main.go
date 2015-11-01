@@ -1,9 +1,9 @@
 package main
 
 import (
+	_ "blog/helloapp/models"
+	"blog/helloapp/models/class"
 	_ "blog/helloapp/routers"
-	_ "blog/models"
-	"blog/models/class"
 	"github.com/astaxie/beego"
 )
 
