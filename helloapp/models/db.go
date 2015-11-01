@@ -2,7 +2,7 @@ package models
 
 import (
 "blog/helloapp/models/class"
-	"github.com/astaxie/beego.orm"
+	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 )
 
